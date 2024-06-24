@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Simple Application</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Kosqu Application Form</h1>
+        <form id="userForm">
+            <input type="hidden" id="userId">
+            <input type="text" id="name" placeholder=" Enter Your Name" required>
+            <input type="email" id="email" placeholder=" Enter Your Email" required>
+            <input type="number" id="age" placeholder=" Enter Your Age" required>
+            <button type="submit">Save</button>
+        </form>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
